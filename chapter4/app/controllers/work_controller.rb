@@ -1,7 +1,8 @@
 class WorkController < ApplicationController
-	def contact
-		@name = params[:text1]
+	def index
+ 	 render plain: params[:work].inspect
 	end
-	def about
+	def save
 	end
+
 end
